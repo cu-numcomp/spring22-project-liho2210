@@ -30,6 +30,7 @@ Would different stakeholders want different axes (because they care about differ
 Are there modeling decisions made in the interest of good conditioning? Are there algorithmic choices made for stability?
 
 ## What I've Learned
+In the tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
 ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%208.14.47%20PM.png?token=GHSAT0AAAAAABQS4WURP2V55UTHEF7KGQF2YSTR7TA)
 
 ## Questions
