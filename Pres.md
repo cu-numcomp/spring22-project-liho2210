@@ -4,6 +4,7 @@
 ## Links
 * [Ceres Website](http://ceres-solver.org/index.html)
 * [Ceres Github Repo](https://github.com/ceres-solver/ceres-solver)
+* [Additional Tutorial](https://towardsdatascience.com/how-to-create-a-c-project-using-ceres-solver-f3d67c8044f3)
 
 
 ## Background
@@ -21,11 +22,16 @@ Features of the library include a robust modeling API that supports Derivatives,
 Ceres boasts an extensively optimized code base designed with C++ templating, which along with GPU acceleration support for NVIDIA GPU cards, provides high speed solving ability. 
 
 ## What I've Learned
-In the tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
+Both of the tutorials I used were completely useless. The installation process was tedious and poorly documented. After many hours of trial and error, I was able to get the system installed on a virtual machine.
+
+In the first tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
 ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%208.14.47%20PM.png?token=GHSAT0AAAAAABQS4WURP2V55UTHEF7KGQF2YSTR7TA)
 
 The expression within the sum of the equation above is known as the Residual Block, with the term (xi1, ..., xik) is known as the Parameter Block. F_i() represents a Cost Function and p_i() is a Loss Function. In cases where p_i(x) = x and the bounds Lj and Uj are negative infinity and infinity, respectively, the result is a non-linear least sqaures problem in the form: 
 
+![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%209.11.06%20PM.png?token=GHSAT0AAAAAABQS4WUQCOYLGNK53LSX2F3SYSTTR5A)
+
+After running the included 'helloworld' file using Ceres Solver, the resulting output was displayed:
 ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%209.11.06%20PM.png?token=GHSAT0AAAAAABQS4WUQCOYLGNK53LSX2F3SYSTTR5A)
 
 ## Questions
