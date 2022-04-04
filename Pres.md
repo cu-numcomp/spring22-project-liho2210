@@ -9,25 +9,16 @@
 ## Background
 Ceres Solver is a C++ library used to optimize large and complicated problems. In particular Ceres is known for being able to solve Non-linear Least Squares problems. It has been used by Google for over a decade. 
 
-Features of the library include a robust modeling API that supports Derivatives, Loss Functions and Manifolds; as well as a recognition system to implement the most appropriate optimization algorithm to best suit the needs of a system when solving complex problems like Non-linear Conjugate Gradients and Levenburg-Marquardt methods.
-
 ## Key Problems Solved
-Rootfinding? Interpolation? Regression?
-Is it general-purpose software or domain-specific? What makes it unique?
+Ceres is a domain-specific tool used primarily for modeling and solving complex optimization problems like non-linear least squares problems with bounds constraints and unconstrained general optimization problems. 
 
 ## Stakeholders
-Who develops the software, who uses it, who pays for it?
-What are they looking for?
-How do they communicate and collaborate?
-Who uses the software?
-Who is impacted (positively or negatively) by use of the software?
+The software is open source, but primarily developed by a small team. Notable users include Google, Blender, Microsoft and OpenMVG. Primariily, users implement Ceres to aid in estimation techniques related to 3D imaging and bundle adjustment. 
+The developers allow for contribution from outside developers through their github repository. 
 
 ## Metrics and Features
-How do concepts like accuracy, conditioning, stability, and cost appear?
-If the software is fast, how is "fast" defined?
-If the software is accurate, what does accuracy mean? Could you make a plot, say accuracy vs cost? How would you label the axes to make it relevant to a stakeholder?
-Would different stakeholders want different axes (because they care about different things)?
-Are there modeling decisions made in the interest of good conditioning? Are there algorithmic choices made for stability?
+Features of the library include a robust modeling API that supports Derivatives, Loss Functions and Manifolds; as well as a recognition system to implement the most appropriate optimization algorithm to best suit the needs of a system when solving complex problems like Non-linear Conjugate Gradients and Levenburg-Marquardt methods.
+Ceres boasts an extensively optimized code base designed with C++ templating, which along with GPU acceleration support for NVIDIA GPU cards, provides high speed solving ability. 
 
 ## What I've Learned
 In the tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
