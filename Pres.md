@@ -22,7 +22,7 @@ Features of the library include a robust modeling API that supports Derivatives,
 Ceres boasts an extensively optimized code base designed with C++ templating, which along with GPU acceleration support for NVIDIA GPU cards, provides high speed solving ability. 
 
 ## What I've Learned
-Both of the tutorials I used were completely useless. The installation process was tedious and poorly documented. After many hours of trial and error, I was able to get the system installed on a virtual machine.
+Both of the tutorials I used were very unhelpfull for a new user. The installation process was tedious and poorly documented. After many hours of trial and error, I was finally able to get the system installed on a virtual machine and play around with the functionality.
 
 In the first tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
 <p align="center">
@@ -48,9 +48,10 @@ Here we can see Ceres iterate through the function:
 The minimum is defined. Cost is reduced from 4.5125e+01 to 5.02552e-16 and the minimum converges to 10.
 
 ## Questions
+One question I have aboue this software is how the flow of functions works throughout the installed directories. There are binary files which will run and invoke the Ceres analysis, but I don't fully understand where to put new files as to make adjustments and experiment with custom values/functions. I will continue to investigate as I work through more tutorials.
 
 ## Potential Experiments
-
+A potential experimant for this software would be to analyze the iterative process Ceres follows to solve a complex rootfinding or optimization problem, and compare the cost to that of a different process or simpler solver technique. 
 
 ```python
 
