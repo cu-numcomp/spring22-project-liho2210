@@ -34,7 +34,9 @@ The expression within the sum of the equation above is known as the Residual Blo
 After creating the required Cost Functor to compute the residual function and constructing a non-linear least squares problem to use it, I ran the included 'helloworld' file using Ceres Solver, and the resulting output was displayed:
 ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-04%20at%2011.03.48%20AM.png?token=GHSAT0AAAAAABQS4WURTPGXXQXK3BBS7JFUYSUMKOQ)
 
-Here we can see Ceres iterate through the function: ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-04%20at%2011.03.48%20AM.png?token=GHSAT0AAAAAABQS4WURTPGXXQXK3BBS7JFUYSUMKOQ) to define the minimum. Cost is reduced from 4.5125e+01 to 5.02552e-16 and the minimum converges to 10.
+Here we can see Ceres iterate through the function: ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-04%20at%2011.18.57%20AM.png?token=GHSAT0AAAAAABQS4WURVYJ73BYEMQJ2LOJMYSUMQ5Q) 
+
+The minimum is defined. Cost is reduced from 4.5125e+01 to 5.02552e-16 and the minimum converges to 10.
 
 ## Questions
 
