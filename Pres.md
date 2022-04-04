@@ -12,6 +12,9 @@ Ceres Solver is a C++ library used to optimize large and complicated problems. I
 
 ## Key Problems Solved
 Ceres is a domain-specific tool used primarily for modeling and solving complex optimization problems like non-linear least squares problems with bounds constraints and unconstrained general optimization problems. 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-04%20at%2011.39.28%20AM.png?token=GHSAT0AAAAAABQS4WUROJINQLI3W76TKMX4YSUNABA" />
+</p>
 
 ## Stakeholders
 The software is open source, but primarily developed by a small team. Notable users include Google, Blender, Microsoft and OpenMVG. Primarily, users implement Ceres to aid in estimation techniques related to 3D imaging and bundle adjustment. 
@@ -20,11 +23,6 @@ The developers allow for contribution from outside developers through their GitH
 ## Metrics and Features
 Features of the library include a robust modeling API that supports Derivatives, Loss Functions and Manifolds; as well as a recognition system to implement the most appropriate optimization algorithm to best suit the needs of a system when solving complex problems like Non-linear Conjugate Gradients and Levenburg-Marquardt methods.
 Ceres boasts an extensively optimized code base designed with C++ templating, which along with GPU acceleration support for NVIDIA GPU cards, provides high speed solving ability. 
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-04%20at%2011.39.28%20AM.png?token=GHSAT0AAAAAABQS4WUROJINQLI3W76TKMX4YSUNABA" />
-</p>
-
 
 ## What I've Learned
 Both of the tutorials I used were very unhelpful for a new user. The installation process was tedious and poorly documented. After many hours of trial and error, I was finally able to get the system installed on a virtual machine and play around with the functionality.
