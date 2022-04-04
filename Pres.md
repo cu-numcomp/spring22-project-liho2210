@@ -32,8 +32,10 @@ Are there modeling decisions made in the interest of good conditioning? Are ther
 ## What I've Learned
 In the tutorial I completed, I used Ceres Solver to solve bounds constrained robustified non-linear least squares problems in the form:
 ![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%208.14.47%20PM.png?token=GHSAT0AAAAAABQS4WURP2V55UTHEF7KGQF2YSTR7TA)
-$$\begin{split}\min_{\mathbf{x}} &\quad \frac{1}{2}\sum_{i} \rho_i\left(\left\|f_i\left(x_{i_1}, ... ,x_{i_k}\right)\right\|^2\right) \\
-\text{s.t.} &\quad l_j \le x_j \le u_j\end{split}$$
+
+The expression within the sum of the equation above is known as the Residual Block, with the term (xi1, ..., xik) is known as the Parameter Block. F_i() represents a Cost Function and p_i() is a Loss Function. In cases where p_i(x) = x and the bounds Lj and Uj are negative infinity and infinity, respectively, the result is a non-linear least sqaures problem in the form: 
+
+![image](https://raw.githubusercontent.com/cu-numcomp/spring22-project-liho2210/main/img/Screen%20Shot%202022-04-03%20at%209.11.06%20PM.png?token=GHSAT0AAAAAABQS4WUQCOYLGNK53LSX2F3SYSTTR5A)
 
 ## Questions
 
